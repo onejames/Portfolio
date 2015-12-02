@@ -1,0 +1,1 @@
+<div id="footer" class="fadedBorder">James Laster</div>

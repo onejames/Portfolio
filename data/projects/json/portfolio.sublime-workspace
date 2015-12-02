@@ -1,0 +1,558 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mark",
+				"markdownPath"
+			],
+			[
+				"json",
+				"jsonString"
+			],
+			[
+				"str_Re",
+				"str_replace"
+			],
+			[
+				"josn",
+				"jsonString"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"file",
+				"fileParser"
+			],
+			[
+				"parseFil",
+				"parseFile"
+			],
+			[
+				"prototy",
+				"objectPrototype"
+			],
+			[
+				"homepage",
+				"Homepagesections"
+			],
+			[
+				"fle",
+				"filename"
+			],
+			[
+				"ob_get",
+				"ob_get_contents"
+			],
+			[
+				"slu",
+				"slugs"
+			],
+			[
+				"class_",
+				"class_exists"
+			],
+			[
+				"route",
+				"routeArray"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/balancing_bot.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/markdown/balancing_bot.markdown",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/led_tree.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/led_matrix.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/no_pan_pear_pie.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/ProjectsController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Tools/FileParser.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/Projects.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Handlers/ProjectHandler.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/egg_drop_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/the_chewey.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/tree_climbing.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/projects.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/recipes.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/rc_cars.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/apple_pie.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/beer.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/pancakes.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/banana_bread_ab.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/backpacking.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/Recipes.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/aquariums.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/projects.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/RecipesController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/sections.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/projects.tpl",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/AbstractController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/projects/project.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/recipes.tpl",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/projects/projectTemplate.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/recipes/recipesTemplate.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/projects.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/recipes/project.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/markdown/laster_stuffing.markdown",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/homepage.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/Projects list.text",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/laster_stuffing.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/recipes/recipes.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Bootstrap.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/main.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/index.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/index.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Handlers/RecipeHandler.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/markdown/lasterstuffing.markdown",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Article/AbstractArticle.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Article/RecipeArticle.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Tools/Hydrator.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/lasterstuffing.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Handlers/AbstractHandler.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/composer.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/HomepageController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/vendor/erusev/parsedown/Parsedown.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/vendor/autoload.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/AbstractAjax.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Constants.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Template/Template.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/bootstrapJs.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/recipes.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/main.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/homepageSections.tpl",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/AjaxController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Router/Route.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/homepage.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/lasterstuffing.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/homepage/homepagesections.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/coilgun.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Router/Router.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/.htaccess",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/Homepagesections.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Interfaces/MakesDto.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/homepage.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/projects/recipesTemplate.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/homepageSections.html",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/main.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/ProjectController.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/projects/coilGun.html",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/ajax/homepageSections.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/footer.php",
+		"/Users/jameslaster/Dev/puphpet/config.yaml",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/_templates/homepageSections.js",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/homepageSections.php",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/main.js",
+		"/Users/jameslaster/Dev/htdocs/pivot_hccsc.sql",
+		"/Users/jameslaster/Downloads/1314_MS_Q1_CourseGrades.csv",
+		"/Users/jameslaster/Downloads/LoweryONLYTESTSES five star.csv",
+		"/Users/jameslaster/Downloads/libdvdcss-1.2.13/install-sh",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/config/autoload/slm_queue.local.php",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/config/autoload/slm_queue.global.php",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/vendor/fivestartech/pivot-queue/config/module.config.php",
+		"/Users/jameslaster/Desktop/tweekPage/settings/index.html",
+		"/Users/jameslaster/Desktop/tweekPage/crap",
+		"/Users/jameslaster/Desktop/tweekPage/settings/manifest.json",
+		"/Users/jameslaster/Desktop/tweekPage/settings/settings.js",
+		"/Users/jameslaster/Desktop/chromeExtension/popup.js",
+		"/Users/jameslaster/Desktop/chromeExtension/popup.html",
+		"/Users/jameslaster/Desktop/chromeExtension/manifest.json",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/data/Logs/.gitignore",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/p1.5-client-db/liquibase.properties",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/p2-client-db/liquibase.properties",
+		"/Users/jameslaster/Dev/htdocs/pivot-api/p2-apigility-db/liquibase.properties",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/setup_pivot2_api.sh",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/setup.sh",
+		"/Users/jameslaster/Dev/htdocs/phpmyadmin/config.inc.php",
+		"/Users/jameslaster/Dev/puphpet/puppet/site.pp",
+		"/Users/jameslaster/Dev/htdocs/pivot-2/config.json",
+		"/Users/jameslaster/Dev/htdocs/pivot-2/config.json.tmp",
+		"/Users/jameslaster/Dev/.gitignore",
+		"/Users/jameslaster/Dev/puphpet/.gitattributes",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/initFE.sh",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/installRubyGems.sh",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/installJRE.sh",
+		"/Users/jameslaster/Dev/puphpet/files/exec-once/initAPI.sh",
+		"/Users/james/dev/Vagrantfile",
+		"/Users/james/dev/html/pivot-2/app/config/parameters.yml",
+		"/Users/james/dev/setupPivot2.sh",
+		"/Users/james/dev/puphpet/config.yaml",
+		"/Users/james/dev/puphpet/puppet/modules/apache/templates/vhost/_fastcgi.erb",
+		"/Users/james/dev/htdocs/pivot-2/refreshPivot2.sh",
+		"/Users/james/dev/htdocs/pivot-2/setupPivot2.sh",
+		"/Users/james/dev/htdocs/pivot-2/composer.lock",
+		"/Users/james/dev/.gitignore",
+		"/private/etc/hosts",
+		"/Users/james/dev/htdocs/pivot-apigility/config/autoload/database.local.php",
+		"/Users/james/dev/puphpet/puppet/modules/mysql/manifests/server/root_password.pp",
+		"/Users/james/dev/puphpet/puppet/modules/rvm/spec/fixtures/modules/apache/README.md",
+		"/Users/james/dev/puphpet/puppet/modules/apache/README.md",
+		"/Users/james/dev/htdocs/pivot-apigility/tests/bootstrap.php",
+		"/Users/james/dev/puphpet/puppet/modules/apache/spec/acceptance/vhost_spec.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/jameslaster/Dev/htdocs/pivot-1.5",
+			"/Users/james/dev/",
+			"/Users/james/dev/htdocs/pivot-apigility/module",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"recipe",
+			",",
+			"sections",
+			"recipes",
+			"recipe",
+			"recipies",
+			"recipes",
+			"<script type=\"text/template\" id=\"recipesTemplate\">\n\n<li onclick=\"window.location.href = '<%= link %>';\">\n	<img src=\"<%= image %>\" />\n	<span class=\"sectionTitle\"><%= title %></span>\n	<p><%= description %></p>\n</li>\n\n</script>",
+			"recipes",
+			"goodFileName",
+			"setTempalte",
+			"				",
+			"json",
+			":",
+			"array",
+			"list-style-type",
+			"content",
+			"Body",
+			"body",
+			"Body",
+			"private",
+			"sethandler",
+			"article",
+			";",
+			"$pageValues",
+			"	$",
+			"$this->render(",
+			"sections",
+			"homepage",
+			"Error loading template file",
+			"'",
+			"fullPath",
+			"=>",
+			"path",
+			"scanedFiles",
+			"private",
+			"	",
+			"private",
+			"var_dump",
+			"homepageSections",
+			"[ ]	",
+			"values",
+			"$template",
+			"template",
+			"var_dump(",
+			"var_dump();",
+			" i",
+			"i",
+			"var ",
+			"center",
+			"test_custom_datatest_custom_data",
+			"jlaster",
+			"left",
+			"text-align",
+			".",
+			"ads",
+			"xdebug-var-dump",
+			"- ",
+			"host_url",
+			"webroot",
+			"sock",
+			"sudo",
+			"available",
+			"install",
+			"            \"name\": \"sy",
+			"            \"name\": \"si",
+			"\"name\": \"s",
+			"symfony",
+			"`",
+			"vagrant",
+			"host",
+			" host { ",
+			"host { ",
+			"host",
+			"memory",
+			"ram",
+			"preFetch",
+			"Doctrine_EventListener",
+			"root",
+			"mysql::db",
+			"d3v0p5",
+			"-0",
+			"Classification",
+			"-0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"egg",
+				"data/recipes/json/egg_drop_soup.json"
+			],
+			[
+				"the",
+				"data/recipes/json/the_chewey.json"
+			],
+			[
+				"rc",
+				"data/projects/json/rc_cars.json"
+			],
+			[
+				"filepar",
+				"App/Core/Tools/FileParser.php"
+			],
+			[
+				"repcon",
+				"App/Controllers/RecipesController.php"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"laster",
+				"data/recipes/json/laster_stuffing.json"
+			],
+			[
+				"lasterstu",
+				"data/recipes/markdown/laster_stuffing.markdown"
+			],
+			[
+				"abstractarti",
+				"App/Core/Article/AbstractArticle.php"
+			],
+			[
+				"route",
+				"App/Router/Route.php"
+			],
+			[
+				"homejs",
+				"js/homepage.js"
+			],
+			[
+				"homepagecss",
+				"css/homepage.css"
+			],
+			[
+				"abstract",
+				"App/Controllers/AbstractController.php"
+			],
+			[
+				"root_password.pp",
+				"puphpet/puppet/modules/mysql/manifests/server/root_password.pp"
+			],
+			[
+				"yml",
+				"htdocs/error/HTTP_BAD_GATEWAY.html.var"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

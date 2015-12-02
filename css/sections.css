@@ -1,0 +1,41 @@
+p {
+	padding: 15px;
+}
+
+.sectionTitle {
+	font-size: 1.2em;
+}
+
+.sections ul {
+	width: 100%;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.sections li {
+ 	border: 1px solid #eee;
+	line-height: 1.5em;
+	border-radius: 5px;
+	float: left;
+	display: inline;
+	padding: 1em;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	display: inline-block;
+	height: 120px;
+}
+
+.double li  { width: 380px; }
+
+.sections li img {
+	float: left;
+	border-radius: 3px;
+	/*border: 1px solid #eee;*/
+	width:55px;
+	margin-right: 1em;
+}
+
+.sections p {
+	padding-bottom: 0px;
+	margin: 0px;
+}

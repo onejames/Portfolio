@@ -1,0 +1,38 @@
+{
+    "name": "App",
+    "description": "Portfolio Application",
+    "config": {
+    },
+    "require": {
+        "php": ">=5.4",
+        "erusev/parsedown": "^1.6"
+    },
+
+    "require-dev": {
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": [
+                "App/Core/"
+            ],
+            "App\\Router\\": [
+                "App/Router/"
+            ],
+            "App\\Controllers\\": [
+                "App/Controllers/"
+            ],
+            "App\\Handlers\\": [
+                "App/Handlers/"
+            ],
+            "App\\Ajax\\": [
+                "App/Ajax/"
+            ]
+        }
+    },
+
+    "extra": {
+
+    }
+}

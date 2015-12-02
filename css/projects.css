@@ -1,0 +1,17 @@
+#mainContent {
+	padding: 15px;
+}
+
+.projectsWrapper img {
+	clear: left;
+	clear: right;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+	max-width: 300px;
+}
+
+.projectsWrapper img:nth-child(odd) {
+	float: right;
+	margin-left: 15px;
+}

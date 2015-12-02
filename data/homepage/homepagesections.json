@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Projects",
+		"description": "These are some of the projects that i have worked on over the years.",
+		"image": "projects.png",
+		"link": "projects"
+	}, {
+		"name": "Recipies",
+		"description": "This is a collection of recipes i have collected over the years. Some from family, others from web resources.",
+		"image": "recipes.jpeg",
+		"link": "recipes"
+	}, {
+		"name": "Programming",
+		"description": "My programming experience and resources",
+		"image": "programming.JPG",
+		"link": "programming"
+	}, {
+		"name": "Graphic Design",
+		"description": "Design work i have done over the years",
+		"image": "rick.jpeg",
+		"link": "design"
+	}, {
+		"name": "Bio",
+		"description": "About me and my life.",
+		"image": "rick.jpeg",
+		"link": "bio"
+	}
+]
