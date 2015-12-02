@@ -2,9 +2,12 @@
 
 namespace App\Handlers;
 
-class AbstractHandler
-{
-	
+use App\Core\Interfaces\IsService;
+use App\Core\Traits\ServiceTrait;
 
+class AbstractHandler implements IsService
+{
+
+	use ServiceTrait;
 	
 }

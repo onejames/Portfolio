@@ -28,6 +28,9 @@
             ],
             "App\\Ajax\\": [
                 "App/Ajax/"
+            ],
+            "App\\Commands\\": [
+                "App/Commands/"
             ]
         }
     },

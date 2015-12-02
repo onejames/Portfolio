@@ -1,10 +1,16 @@
 <?php 
 
+use App\Core\App;
+
 include('Constants.php');
 
 require 'vendor/autoload.php';
 
 register_shutdown_function( "fatal_handler" );
+
+$app = new App();
+
+$app->init();
 
 function fatal_handler() {
 	$error = error_get_last();
@@ -13,5 +19,5 @@ function fatal_handler() {
 		return;
 	}
 	
-	var_dump($error);die();
+	var_dump($error);die('fatil error handler');
 }

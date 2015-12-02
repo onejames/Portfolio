@@ -20,6 +20,11 @@ class FileParser
 		$this->folderPath = $path;
 	}
 
+	public function fileExists($relativePath)
+	{
+		return file_exists($this->dataPath . $relativePath);
+	}
+
 	public function getFileNames($subFolderPath = null)
 	{
 		$path = $this->folderPath . $subFolderPath;
@@ -28,12 +33,9 @@ class FileParser
 			throw new \Exception("Can not get file names from a non-directory");
 		}
 
-		$this->scannedPath = $path;
+		$this->scannedPath  = $path;
 
-		$files = array_diff(scandir($this->dataPath .  $path), array('..', '.'));
-
-		$this->scannedFiles = $files;
-
+		$this->scannedFiles = array_diff(scandir($this->dataPath .  $path), array('..', '.', '.DS_Store'));
 		return $this->scannedFiles;
 	}
 
@@ -72,7 +74,7 @@ class FileParser
 		if($this->scannedFiles == null) {
 			$this->getFileNames();
 		}
-		
+
 		$data = array();
 
 		foreach ($this->scannedFiles as $filename) {

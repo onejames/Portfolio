@@ -3,9 +3,13 @@
 namespace App\Router;
 
 use App\Router\Route;
+use App\Core\Interfaces\IsService;
+use App\Core\Traits\ServiceTrait;
 
-class router
+class router implements IsService
 {
+
+	use ServiceTrait;
 
 	private $route;
 
@@ -16,18 +20,18 @@ class router
 
 	public function calculateRoute($routeString = null)
 	{
-		$routes   = array();
+		$routePieces   = array();
 		$base_url =  ( $routeString == null ? $this->getCurrentUri() : $routeString );
 		
 		$exploded = explode('/', $base_url);
 		foreach($exploded as $route)
 		{
 			if(trim($route) != '') {
-				array_push($routes, $route);
+				array_push($routePieces, $route);
 			}
 		}
 	 
-		$this->route->init($routes);
+		$this->route->init($routePieces);
 
 		return $this->route;
 	}
@@ -39,6 +43,10 @@ class router
 		}
 
 		if($route == null) {
+			$route = $this->calculateRoute();
+		}
+
+		if($route == null) {
 			throw new \Exception('Cant route with out a route');
 		}
 
@@ -46,11 +54,11 @@ class router
 			$route->controller = 'homepage';
 		}
 		
-		try {
-			$class 		= 'App\\Controllers\\' . ucfirst($route->controller) . 'Controller';
+			$class = 'App\\Controllers\\' . ucfirst($route->controller) . 'Controller';
+		if( class_exists($class)) {
 			$controller = new $class();
-		} catch (\Exception $e) {
-			$this->routeError($e);
+		} else {
+			throw new \Exception('Page ' . $route->controller . ' not found', 404);
 		}
 
 		$controller->controll($route);
@@ -67,6 +75,10 @@ class router
 	*/
 	private function getCurrentUri()
 	{
+		if(!isset($_SERVER['REQUEST_URI'])) {
+			return null;
+		}
+
 		$basepath = $this->getBasePath();
 		$uri      = substr($_SERVER['REQUEST_URI'], strlen($basepath));
 		
@@ -79,9 +91,14 @@ class router
 		return $uri;
 	}
 
-	public function routeError(Exception $e)
+	public function routeError(\Exception $e)
 	{
-		// var_dump($e);
+		var_dump('router handling error');
+		var_dump($e);
+
+		// if route type is json return json error
+
+		//else display error page
 	}
 
 }

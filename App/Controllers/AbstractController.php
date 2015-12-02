@@ -4,9 +4,13 @@ namespace App\Controllers;
 
 use App\Router\Route;
 use App\Core\Template\Template;
+use App\Core\Traits\GetServiceTrait;
+
 
 abstract class AbstractController
 {
+
+	use GetServiceTrait;
 
 	protected $route;
 
