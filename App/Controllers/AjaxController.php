@@ -14,11 +14,28 @@ class AjaxController extends AbstractController
 		}
 
 		$class 		= 'App\\Ajax\\' . ucfirst($this->route->getPage());
+		
+		if( class_exists($class)) {
+			$controller = new $class();
+		} else {
+			throw new \Exception('Page ' . $route->controller . ' not found', 404);
+		}
+		
 		$ajaxObject = new $class();
 
 		echo $ajaxObject->toJson();
 
 		die();
+	}
+
+	public function returnAjaxError($errorDto)
+	{
+		if(ob_get_contents() != null) {
+			ob_clean();
+		}
+
+		echo json_encode($errorDto);
+		exit;
 	}
 
 }

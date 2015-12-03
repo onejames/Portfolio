@@ -2,8 +2,14 @@
 
 namespace App\Core\Tools;
 
-class Hydrator 
+use App\Core\Interfaces\IsService;
+use App\Core\Traits\ServiceTrait;
+
+class Hydrator implements IsService
 {
+	use ServiceTrait;
+	
+	use GetServiceTrait;
 
 	private $objectPrototype;
 	

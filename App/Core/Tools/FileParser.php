@@ -2,10 +2,18 @@
 
 namespace App\Core\Tools;
 
+use App\Core\Interfaces\IsService;
+use App\Core\Traits\ServiceTrait;
+use App\Core\Traits\GetServiceTrait;
+
 use App\Core\Tools\Hydrator;
 
-class FileParser
+class FileParser implements IsService
 {
+
+	use ServiceTrait;
+	
+	use GetServiceTrait;
 
 	private $dataPath = DATA_PATH;
 

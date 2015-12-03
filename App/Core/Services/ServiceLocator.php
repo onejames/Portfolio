@@ -11,18 +11,29 @@ class ServiceLocator
 	private $usedClasses = array();
 
 	private $factory = array(
-
+		'App\Core\Request' => 'App\Core\Factories\RequestFactory'
 	);
 
 	private $alias = array(
-		'app.core.router'     => 'App\Router\Router',
+		'core.router'            => 'App\Router\Router',
+		'core.request'           => 'App\Core\Request',
 		
-		'app.project.handler' => 'App\Handlers\ProjectHandler',
-		'app.recipe.handler'  => 'App\Handlers\RecipeHandler',
+		'core.tools.fileparser'  => 'App\Core\Tools\FileParser',
+		'core.tools.hydrator'    => 'App\Core\Tools\Hydrator',
+		
+		'app.bio.controller'     => 'App\Controllers\GenTroller',
+		'app.general.controller' => 'App\Controllers\GenTroller',
+		'app.ajax.controller'    => 'App\Controllers\AjaxController',
+
+		'app.error.handler'      => 'App\Handlers\ErrorHandler',
+		'app.bio.handler'        => 'App\Handlers\GenHandler',
+		'app.general.handler'    => 'App\Handlers\GenHandler',
+		'app.project.handler'    => 'App\Handlers\ProjectHandler',
+		'app.recipe.handler'     => 'App\Handlers\RecipeHandler',
 	);
 
 	private $nonpersistant = array(
-
+		'App\Core\Tools\FileParser',
 	);
 
 	public function __construct($config = null)
@@ -54,18 +65,19 @@ class ServiceLocator
 			$factoryName = $this->factory[$className];
 
 			// TODO: check for infinite loop
-			$factory     = new $factoryName($this);
+			$factory     = new $factoryName();
 
 			if( !$factory instanceof IsFactory ) {
 				throw new \Exception('Regestered factory ' . get_class($factory) . ' is not a factory');
 			}
 
-			$classObject = $factory->create();
+			$classObject = $factory->create($this);
 
 		} else {
 
 			$classObject = new $className();
-			
+			$this->usedClasses[$className] = $classObject;
+
 		}
 
 		if( !$classObject instanceof IsService ) {

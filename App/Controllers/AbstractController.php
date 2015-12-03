@@ -4,11 +4,15 @@ namespace App\Controllers;
 
 use App\Router\Route;
 use App\Core\Template\Template;
+use App\Core\Interfaces\IsService;
 use App\Core\Traits\GetServiceTrait;
+use App\Core\Traits\ServiceTrait;
 
 
-abstract class AbstractController
+abstract class AbstractController implements IsService
 {
+
+	use ServiceTrait;
 
 	use GetServiceTrait;
 

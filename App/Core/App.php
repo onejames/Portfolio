@@ -15,6 +15,7 @@ class App
 	public $router;
 
 	// Request
+	public $request;
 
 	// Response
 
@@ -27,21 +28,26 @@ class App
 		$this->serviceLocator = new ServiceLocator();
 	}
 
-	public function init($route = true)
+	public function init()
 	{
 		// $fileParser = new FileParser();
 		// $this->config = $fileParser->parseFilesAsJson('data\config');
 
-		$this->router = $this->serviceLocator->getService('app.core.router');
-
+		$this->router  = $this->serviceLocator->getService('core.router');
 		$this->getRouter()->calculateRoute();
 
-		if($route) {
-			try {
-				$this->getRouter()->route();
-			} catch(\Exception $e) {
-				$this->router->routeError($e);
-			}
+		$this->request = $this->serviceLocator->getService('core.request');
+
+		set_error_handler(array($this->getServiceLocator()->getService('app.error.handler'), "handleError" ));
+
+	}
+
+	public function routeApp()
+	{
+		try {
+			$this->getRouter()->route();
+		} catch(\Exception $e) {
+			$this->router->routeError($e);
 		}
 	}
 
@@ -53,6 +59,11 @@ class App
 	public function getRouter()
 	{
 		return $this->router;
+	}
+
+	public function getRequest()
+	{
+		return $this->request;
 	}
 
 }

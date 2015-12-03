@@ -1,0 +1,12 @@
+#mainContent {
+	padding: 15px;
+}
+
+#errorDetail {
+	float:left;
+}
+
+img {
+	float: right;
+	max-width: 300px;
+}

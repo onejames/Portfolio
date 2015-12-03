@@ -5,11 +5,14 @@ namespace App\Router;
 use App\Router\Route;
 use App\Core\Interfaces\IsService;
 use App\Core\Traits\ServiceTrait;
+use App\Core\Traits\GetServiceTrait;
 
 class router implements IsService
 {
 
 	use ServiceTrait;
+	
+	use GetServiceTrait;
 
 	private $route;
 
@@ -54,7 +57,8 @@ class router implements IsService
 			$route->controller = 'homepage';
 		}
 		
-			$class = 'App\\Controllers\\' . ucfirst($route->controller) . 'Controller';
+		$class = 'App\\Controllers\\' . ucfirst($route->controller) . 'Controller';
+
 		if( class_exists($class)) {
 			$controller = new $class();
 		} else {
@@ -91,14 +95,24 @@ class router implements IsService
 		return $uri;
 	}
 
-	public function routeError(\Exception $e)
+	public function routeError(\Exception $error)
 	{
-		var_dump('router handling error');
-		var_dump($e);
+
+		$errorDto = $errorHandler = $this->get('app.error.handler')->generateError($error);
 
 		// if route type is json return json error
+		if($this->get('core.request')->getType() == 'ajax') {
+			$this->get('app.ajax.controller')->returnAjaxError($errorDto);
+		}
 
-		//else display error page
+		$this->get('app.general.controller')->renderError($errorDto);
+
+		exit;
+	}
+
+	public function getRoute()
+	{
+		return $this->route;
 	}
 
 }
