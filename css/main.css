@@ -46,3 +46,23 @@ body {
 .left   { float: left;  }
 .right  { float: right; }
 .center { margin: auto; text-align: center;}
+
+.inputTable { 
+	border-spacing: 0; 
+	width: 100%;
+}
+
+.inputTable td {
+	padding: 15px;	
+	border-bottom: 15px solid #fff;
+	background-color: #eee;
+}
+
+.inputTable tr td:first-child { 
+	width: 50%; 
+	text-align: right; 
+}
+
+.inputTable tr:last-child td { border-bottom: none; }
+
+.inputTable input { width: 100%;}

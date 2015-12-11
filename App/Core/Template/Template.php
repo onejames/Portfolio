@@ -2,6 +2,8 @@
 
 namespace App\Core\Template;
 
+use App\Core\Tools\HtmlBuilder;
+
 class template
 {
 	
@@ -12,6 +14,7 @@ class template
     public function __construct($file = null)
     {
         $this->file = $file;
+        $this->builder = new HtmlBuilder();
     }
 
     public function setFile($file)
@@ -46,6 +49,14 @@ class template
 
 	    	if($key == 'css') {
 	    		$value = $this->compileCss($value);
+	    	}
+
+	    	if(strpos($key, '|') !== false) {
+	    		$exploded = explode('|', $key);
+	    		$type     = array_shift($exploded);
+		    	$key      = array_pop($exploded);
+
+		    	$value = $this->preProcess($type, $value);
 	    	}
 
 	        $tagToReplace = "[@$key]";
@@ -90,6 +101,17 @@ class template
 	    ob_clean();
 
 	    return $output;
+	}
+
+	private function preProcess($type, $value)
+	{
+		switch($type) {
+			case 'inputTable':
+				return $this->builder->makeInputTable($value);
+				break;
+			default:
+				throw new \Exception('pre process type not found');
+		}
 	}
 
 }

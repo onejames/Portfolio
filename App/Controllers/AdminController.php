@@ -57,16 +57,22 @@ class AdminController extends AbstractController
 			)
 		);
 
-		$article  = $this->route->getPage() . '/' . implode('/', $this->route->getSlugs());
-		$makrdown = $this->getHandler()->getMarkdown($article);
+		$articleName = array_pop($this->route->getSlugs());
+		$articleName = str_replace('.markdown', '', $articleName);
+		$articleName = str_replace('_', ' ', $articleName);
+
+		$markdownPath  = $this->route->getPage() . '/' . implode('/', $this->route->getSlugs());
+		$makrdown      = $this->getHandler()->getMarkdown($markdownPath);
+		$properties    = $this->getHandler()->getProperties(str_replace('markdown', 'json', $markdownPath));
 
 		$this->setPageValues(
 			array(
 				'title'           => 'Admin',
 				'rawMarkdown'     => $makrdown,
 				'markdownPreview' => $parsedown->text($makrdown),
-				'articleTitle'    => $article,
-				'markdownPath'	  => $article,
+				'articleTitle'    => $articleName,
+				'markdownPath'	  => $markdownPath,
+				'inputTable|jsonProperties'  => $properties,
 			)
 		);
 

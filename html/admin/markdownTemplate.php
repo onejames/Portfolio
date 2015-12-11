@@ -16,4 +16,11 @@
 			[@markdownPreview]
 		</div>
 	</fieldset>
+
+	<fieldset>
+		<legend>Properties</legend>
+		<div id="markdownPreview">
+			[@jsonProperties]
+		</div>
+	</fieldset>
 </div>
