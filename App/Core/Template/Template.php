@@ -4,6 +4,8 @@ namespace App\Core\Template;
 
 use App\Core\Tools\HtmlBuilder;
 
+use Parsedown;
+
 class template
 {
 	
@@ -108,6 +110,10 @@ class template
 		switch($type) {
 			case 'inputTable':
 				return $this->builder->makeInputTable($value);
+				break;
+			case 'markdown':
+				$parsedown = new Parsedown();
+				return $parsedown->text($value);
 				break;
 			default:
 				throw new \Exception('pre process type not found');

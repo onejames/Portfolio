@@ -6,7 +6,6 @@ use App\Handlers\AbstractHandler;
 
 use App\Core\Article\ProjectArticle;
 use App\Core\Tools\FileParser;
-use Parsedown;
 
 class ProjectHandler extends AbstractHandler
 {
@@ -31,7 +30,6 @@ class ProjectHandler extends AbstractHandler
 	{
 		$project    = new ProjectArticle;
 		$fileParser = new FileParser();
-		$parsedown  = new Parsedown();
 
 		if(! $fileParser->fileExists('projects/json/' . $name . '.json')) {
 			throw new \Exception('Project does not exist', 404);
@@ -41,7 +39,7 @@ class ProjectHandler extends AbstractHandler
 
 		$content = $fileParser->getFileContents('projects/markdown/' . $name . '.markdown', 'json');
 		
-		$project->setContent($parsedown->text($content));
+		$project->setContent($content);
 
 		return $project;
 	}

@@ -2,12 +2,13 @@
 
 namespace App\Controllers;
 
+use App\Core\Interfaces\IsService;
+
 use App\Router\Route;
 use App\Core\Template\Template;
-use App\Core\Interfaces\IsService;
 use App\Core\Traits\GetServiceTrait;
 use App\Core\Traits\ServiceTrait;
-
+use App\Core\Interfaces\CatchAllController;
 
 abstract class AbstractController implements IsService
 {
@@ -17,6 +18,8 @@ abstract class AbstractController implements IsService
 	use GetServiceTrait;
 
 	protected $route;
+	
+	protected $request;
 
 	protected $template;
 
@@ -30,15 +33,61 @@ abstract class AbstractController implements IsService
 
 	public function controll(Route $route)
 	{
-		$this->route = $route;
+		$this->route   = $route;
+		$this->request = $this->get('core.request');
 
-		if( $this->route->getPage() == null ) {
+		if($this instanceof CatchAllController) {
+			$this->process();
+			exit;
+		}
 
-			$this->processIndex();
+		if($this->request->getMethod() == 'GET') {
 
-		} else {
+			if( $this->route->getPage() == null ) {
+
+				$this->processIndex();
+
+			} else {
+			
+				$this->processRoute();
+
+			}
 		
-			$this->processRoute();
+		} else if($this->request->getMethod() == 'POST') {
+
+			if( $this->route->getPage() == null ) {
+
+				throw new \Exception("You can not post collections");
+
+			} else {
+			
+				$this->postEntity();
+
+			}
+
+		}  else if($this->request->getMethod() == 'PUT') {
+
+			if( $this->route->getPage() == null ) {
+
+				throw new \Exception("You can not put collections");
+				
+			} else {
+			
+				$this->putEntity();
+
+			}
+
+		}  else if($this->request->getMethod() == 'PATCH') {
+
+			if( $this->route->getPage() == null ) {
+
+				throw new \Exception("You can not patch collections");
+
+			} else {
+			
+				$this->patchEntity();
+
+			}
 
 		}
 		
@@ -53,6 +102,31 @@ abstract class AbstractController implements IsService
 	public function processInxex()
 	{	
 		throw new \Exception("This controller does not impliment an index");
+	}
+
+	public function getEntity()
+	{
+		throw new \Exception("This controller does not impliment get on an entity");
+	}
+
+	public function getCollection()
+	{
+		throw new \Exception("This controller does not impliment get on an collection");
+	}
+
+	public function postEntity()
+	{
+		throw new \Exception("This controller " . get_class($this) . " does not impliment post on an entity");
+	}
+
+	public function putEntity()
+	{
+		throw new \Exception("This controller does not impliment put on an entity");
+	}
+
+	public function patchEntity()
+	{
+		throw new \Exception("This controller does not impliment patch on an entity");
 	}
 
 	public function render()

@@ -28,7 +28,7 @@ class ProjectsController extends AbstractController
 			array(
 				'title'   => $project->getTitle(),
 				'name'    => $project->getTitle(),
-				'content' => $project->getContent(),
+				'markdown|content' => $project->getContent(),
 				'image'   => $project->getImage(),
 			)
 		);

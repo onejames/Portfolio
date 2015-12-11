@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Controllers\AbstractController;
 
+use App\Core\Tools\FileParser;
+
 class RecipesController extends AbstractController
 {
 
@@ -39,11 +41,16 @@ class RecipesController extends AbstractController
 			array(
 				'title'   => $recipe->getTitle(),
 				'name'    => $recipe->getTitle(),
-				'content' => $recipe->getContent(),
+				'markdown|content' => $recipe->getContent(),
 				'image'   => $recipe->getImage(),
 			)
 		);
 
+	}
+
+	public function postEntity()
+	{
+		throw new \Exception("fooberbooboer");
 	}
 
 }

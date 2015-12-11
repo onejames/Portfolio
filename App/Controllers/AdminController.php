@@ -41,8 +41,6 @@ class AdminController extends AbstractController
 	
 	public function processRoute()
 	{
-		$parsedown  = new Parsedown();
-
 		$this->setTemplate('admin/markdownTemplate');
 
 		$this->setJavascript(
@@ -62,16 +60,18 @@ class AdminController extends AbstractController
 		$articleName = str_replace('_', ' ', $articleName);
 
 		$markdownPath  = $this->route->getPage() . '/' . implode('/', $this->route->getSlugs());
-		$makrdown      = $this->getHandler()->getMarkdown($markdownPath);
-		$properties    = $this->getHandler()->getProperties(str_replace('markdown', 'json', $markdownPath));
+		$jsonPath      = str_replace('markdown', 'json', $markdownPath);
+		$markdown      = $this->getHandler()->getMarkdown($markdownPath);
+		$properties    = $this->getHandler()->getProperties($jsonPath);
 
 		$this->setPageValues(
 			array(
 				'title'           => 'Admin',
-				'rawMarkdown'     => $makrdown,
-				'markdownPreview' => $parsedown->text($makrdown),
+				'rawMarkdown'     => $markdown,
+				'markdown|markdownPreview' => $markdown,
 				'articleTitle'    => $articleName,
 				'markdownPath'	  => $markdownPath,
+				'jsonPath'	      => $jsonPath,
 				'inputTable|jsonProperties'  => $properties,
 			)
 		);

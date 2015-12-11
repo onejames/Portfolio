@@ -4,15 +4,18 @@ namespace App\Controllers;
 
 use App\Controllers\AbstractController;
 
+use App\Core\Interfaces\CatchAllController;
+
 use App\Core\Interfaces\ToJson;
 
-class AjaxController extends AbstractController
+class AjaxController extends AbstractController implements CatchAllController
 {
 
-	public function processRoute()
+	public function process()
 	{
 
-		$class 		= 'App\\Ajax\\' . ucfirst($this->route->getPage());
+		$request = $this->get('core.request');
+		$class   = 'App\\Ajax\\' . ucfirst($this->route->getPage());
 		
 		if( class_exists($class)) {
 			$controller = new $class();
@@ -22,7 +25,7 @@ class AjaxController extends AbstractController
 		
 		$ajaxObject = new $class();
 
-		if($ajaxObject instanceof ToJson) {
+		if($ajaxObject instanceof ToJson && $request->getMethod() == 'GET') {
 			echo $ajaxObject->toJson();
 		} else {
 			$ajaxObject->processAjax($this->route);
