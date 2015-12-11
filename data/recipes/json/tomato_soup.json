@@ -1,1 +1,8 @@
-{"title":"Tomato_soup","description":"This is a description","image":"tomato_soup.jpeg","thumbnail":"tomato_soup.jpeg","link":"tomato_soup","contentLink":"tomato_soup.markdown"}
+{
+	"title":"Tomato Soup",
+	"description":"Tomato soup from scrach. Easy and great!",
+	"image":"tomato_soup.jpeg",
+	"thumbnail":"tomato_soup.jpeg",
+	"link":"tomato_soup",
+	"contentLink":"tomato_soup.markdown"
+}

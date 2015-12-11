@@ -4,6 +4,7 @@ namespace App\Core\Tools;
 
 use App\Core\Interfaces\IsService;
 use App\Core\Traits\ServiceTrait;
+use App\Core\Traits\GetServiceTrait;
 
 class Hydrator implements IsService
 {

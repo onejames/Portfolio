@@ -5,9 +5,11 @@
 	<head>
 
 		<meta charset="UTF-8">
+		
 		<title>[@title]</title>
 
 		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="<?php echo NODE_MODULE_PATH ?>surge-css/build/css/surge.css">
 		[@css]
 
 		<!-- js bootstrap -->
@@ -19,13 +21,15 @@
 	</head>
 
 	<body>
-		<div id="outer">
+		<div id="outer" class="surge-grid outer">
 
-			<div id="header">
-				
+			<div class="surge-column-1 surge-column-desktop-1/24">&nbsp;</div>
+			<div id="header" onclick="window.location.href = '<?php echo DOMAIN ?>'; " class="surge-column-2/2 surge-column-tablet-4/4 surge-column-desktop-22/24">
+				Infinite&nbsp;Borders &nbsp;-&nbsp;&nbsp;The&nbsp;Tao&nbsp;Of&nbsp;James &nbsp;-&nbsp;&nbsp;onejames
 			</div>
 
-			<div id="mainContent">
+			<div class="surge-column-desktop-2/24">&nbsp;</div>
+			<div id="mainContent" class="surge-column-2/2 surge-column-tablet-4/4 surge-column-desktop-20/24">
 
 				[@subtemplateBody]
 

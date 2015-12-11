@@ -7,7 +7,7 @@ use App\Controllers\AbstractController;
 class HomepageController extends AbstractController
 {
 
-	public function process()
+	public function processIndex()
 	{
 		$this->setPageValues(
 			array(
@@ -29,8 +29,6 @@ class HomepageController extends AbstractController
 				'sections'
 			)
 		);
-
-		$this->render();
 
 	}
 

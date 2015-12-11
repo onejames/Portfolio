@@ -32,10 +32,28 @@ abstract class AbstractController implements IsService
 	{
 		$this->route = $route;
 
-		$this->process();
+		if( $this->route->getPage() == null ) {
+
+			$this->processIndex();
+
+		} else {
+		
+			$this->processRoute();
+
+		}
+		
+		$this->render();
 	}
 	
-	abstract  public function process();
+	public function processRoute()
+	{	
+		throw new \Exception("This controller does not impliment routes");
+	}	
+
+	public function processInxex()
+	{	
+		throw new \Exception("This controller does not impliment an index");
+	}
 
 	public function render()
 	{

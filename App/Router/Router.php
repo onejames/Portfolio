@@ -62,7 +62,7 @@ class router implements IsService
 		if( class_exists($class)) {
 			$controller = new $class();
 		} else {
-			throw new \Exception('Page ' . $route->controller . ' not found', 404);
+			throw new \Exception('Page ' . $route->controller . ' was not found', 404);
 		}
 
 		$controller->controll($route);

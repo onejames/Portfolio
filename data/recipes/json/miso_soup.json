@@ -1,1 +1,8 @@
-{"title":"Miso_soup","description":"This is a description","image":"miso_soup.jpeg","thumbnail":"miso_soup.jpeg","link":"miso_soup","contentLink":"miso_soup.markdown"}
+{
+	"title":"Miso Soup",
+	"description":"Miso based Japaneese soup",
+	"image":"miso_soup.jpeg",
+	"thumbnail":"miso_soup.jpeg",
+	"link":"miso_soup",
+	"contentLink":"miso_soup.markdown"
+}

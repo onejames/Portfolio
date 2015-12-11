@@ -1,1 +1,8 @@
-{"title":"Green_bean_casserole","description":"This is a description","image":"green_bean_casserole.jpeg","thumbnail":"green_bean_casserole.jpeg","link":"green_bean_casserole","contentLink":"green_bean_casserole.markdown"}
+{
+	"title":"Green Bean Casserole",
+	"description":"Traditional homestyle cassarole, of the grean bean kind",
+	"image":"green_bean_casserole.jpeg",
+	"thumbnail":"green_bean_casserole.jpeg",
+	"link":"green_bean_casserole",
+	"contentLink":"green_bean_casserole.markdown"
+}

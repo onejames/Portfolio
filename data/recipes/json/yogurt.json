@@ -1,1 +1,8 @@
-{"title":"Yogurt","description":"This is a description","image":"yogurt.jpeg","thumbnail":"yogurt.jpeg","link":"yogurt","contentLink":"yogurt.markdown"}
+{
+	"title":"Yogurt",
+	"description":"Whats better than home made yogurt!",
+	"image":"yogurt.jpeg",
+	"thumbnail":"yogurt.jpeg",
+	"link":"yogurt",
+	"contentLink":"yogurt.markdown"
+}

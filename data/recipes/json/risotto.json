@@ -1,1 +1,8 @@
-{"title":"Risotto","description":"This is a description","image":"risotto.jpeg","thumbnail":"risotto.jpeg","link":"risotto","contentLink":"risotto.markdown"}
+{
+	"title":"Risotto",
+	"description":"A risotto that Gordon Ransey would approve of",
+	"image":"risotto.jpeg",
+	"thumbnail":"risotto.jpeg",
+	"link":"risotto",
+	"contentLink":"risotto.markdown"
+}

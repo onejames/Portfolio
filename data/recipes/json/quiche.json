@@ -1,1 +1,8 @@
-{"title":"Quiche","description":"This is a description","image":"quiche.jpeg","thumbnail":"quiche.jpeg","link":"quiche","contentLink":"quiche.markdown"}
+{
+	"title":"Quiche",
+	"description":"Not quite an egg pie...",
+	"image":"quiche.jpeg",
+	"thumbnail":"quiche.jpeg",
+	"link":"quiche",
+	"contentLink":"quiche.markdown"
+}

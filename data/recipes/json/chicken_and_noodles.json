@@ -1,1 +1,8 @@
-{"title":"Chicken_and_noodles","description":"This is a description","image":"chicken_and_noodles.jpeg","thumbnail":"chicken_and_noodles.jpeg","link":"chicken_and_noodles","contentLink":"chicken_and_noodles.markdown"}
+{
+	"title":"Chicken and Noodles",
+	"description":"This is my attempt at my own traditional chicked and noodles.",
+	"image":"chicken_and_noodles.jpeg",
+	"thumbnail":"chicken_and_noodles.jpeg",
+	"link":"chicken_and_noodles",
+	"contentLink":"chicken_and_noodles.markdown"
+}

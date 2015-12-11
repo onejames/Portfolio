@@ -1,1 +1,8 @@
-{"title":"Mushroom_onion_white_sauce","description":"This is a description","image":"mushroom_onion_white_sauce.jpeg","thumbnail":"mushroom_onion_white_sauce.jpeg","link":"mushroom_onion_white_sauce","contentLink":"mushroom_onion_white_sauce.markdown"}
+{
+	"title":"Mushroom Onion White Sauce",
+	"description":"A simple white sauce over pasta",
+	"image":"mushroom_onion_white_sauce.jpeg",
+	"thumbnail":"mushroom_onion_white_sauce.jpeg",
+	"link":"mushroom_onion_white_sauce",
+	"contentLink":"mushroom_onion_white_sauce.markdown"
+}

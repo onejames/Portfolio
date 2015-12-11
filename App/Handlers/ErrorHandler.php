@@ -25,7 +25,9 @@ class ErrorHandler implements IsService
 	    	return;
 	    }
 
-        ob_end_clean();
+	    if(ob_get_contents() != '') {
+	        ob_end_clean();
+	    }
 
     	$error = error_get_last();
 

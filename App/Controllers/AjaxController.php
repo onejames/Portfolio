@@ -7,11 +7,8 @@ use App\Controllers\AbstractController;
 class AjaxController extends AbstractController
 {
 
-	public function process()
+	public function processRoute()
 	{
-		if($this->route->getPage() == null) {
-			throw new \Exception('Ajax page must be specified');
-		}
 
 		$class 		= 'App\\Ajax\\' . ucfirst($this->route->getPage());
 		

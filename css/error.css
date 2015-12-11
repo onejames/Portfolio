@@ -2,11 +2,8 @@
 	padding: 15px;
 }
 
-#errorDetail {
-	float:left;
-}
-
-img {
-	float: right;
+.disaproval {
 	max-width: 300px;
+	text-align: center;
+	font-size: 6em;
 }

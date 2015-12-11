@@ -1,1 +1,8 @@
-{"title":"Steak","description":"This is a description","image":"steak.jpeg","thumbnail":"steak.jpeg","link":"steak","contentLink":"steak.markdown"}
+{
+	"title":"Steak",
+	"description":"Basic guide to cooking a steak",
+	"image":"steak.jpeg",
+	"thumbnail":"steak.jpeg",
+	"link":"steak",
+	"contentLink":"steak.markdown"
+}

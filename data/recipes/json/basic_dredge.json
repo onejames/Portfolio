@@ -1,1 +1,8 @@
-{"title":"Basic_dredge","description":"This is a description","image":"basic_dredge.jpeg","thumbnail":"basic_dredge.jpeg","link":"basic_dredge","contentLink":"basic_dredge.markdown"}
+{
+	"title":"Basic Dredge",
+	"description":"Basic three part dredge, for frying or baking.",
+	"image":"basic_dredge.jpeg",
+	"thumbnail":"basic_dredge.jpeg",
+	"link":"basic_dredge",
+	"contentLink":"basic_dredge.markdown"
+}

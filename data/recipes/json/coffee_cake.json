@@ -1,1 +1,8 @@
-{"title":"Coffee_cake","description":"This is a description","image":"coffee_cake.jpeg","thumbnail":"coffee_cake.jpeg","link":"coffee_cake","contentLink":"coffee_cake.markdown"}
+{
+	"title":"Coffee Cake",
+	"description":"Though you cant dring this cake, it goes great with coffee",
+	"image":"coffee_cake.jpeg",
+	"thumbnail":"coffee_cake.jpeg",
+	"link":"coffee_cake",
+	"contentLink":"coffee_cake.markdown"
+}

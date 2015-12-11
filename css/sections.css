@@ -6,33 +6,41 @@ p {
 	font-size: 1.2em;
 }
 
-.sections ul {
-	width: 100%;
-	padding: 0px;
+.sections {
 	list-style-type: none;
 }
 
-.sections li {
+.sectionsUl {
+	/*width: 100%;*/
+	padding: 0px;
+}
+
+.sectionsLi {
  	border: 1px solid #eee;
-	line-height: 1.5em;
 	border-radius: 5px;
+	
+	height: 140px;
 	float: left;
-	display: inline;
 	padding: 1em;
 	margin-right: 30px;
 	margin-bottom: 15px;
+	
+	line-height: 1.5em;
 	display: inline-block;
-	height: 120px;
+
+	cursor: pointer;
+
+	overflow: hidden;
 }
 
-.double li  { width: 380px; }
-
-.sections li img {
-	float: left;
+.sectionsLi img {
 	border-radius: 3px;
-	/*border: 1px solid #eee;*/
-	width:55px;
 	margin-right: 1em;
+	max-height: 110px;
+	max-width: 100px;
+    
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 .sections p {

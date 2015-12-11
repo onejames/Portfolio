@@ -15,11 +15,6 @@ class GenTroller extends AbstractController implements IsService
 		$this->setHandler('App\Handlers\GenHandler');
 	}
 
-	public function process()
-	{
-		
-	}
-
 	public function renderError($errorDto)
 	{
 		$this->setPageValues(
@@ -44,7 +39,6 @@ class GenTroller extends AbstractController implements IsService
 			)
 		);
 
-		$this->render();
 	}
 
 }

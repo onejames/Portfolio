@@ -1,1 +1,8 @@
-{"title":"Udon","description":"This is a description","image":"udon.jpeg","thumbnail":"udon.jpeg","link":"udon","contentLink":"udon.markdown"}
+{
+	"title":"Udon",
+	"description":"Light Japaneese noodle soup",
+	"image":"udon.jpeg",
+	"thumbnail":"udon.jpeg",
+	"link":"udon",
+	"contentLink":"udon.markdown"
+}

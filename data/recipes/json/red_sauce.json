@@ -1,1 +1,8 @@
-{"title":"Red_sauce","description":"This is a description","image":"red_sauce.jpeg","thumbnail":"red_sauce.jpeg","link":"red_sauce","contentLink":"red_sauce.markdown"}
+{
+	"title":"Vodka Paramasan Red Sauce",
+	"description":"Best red sauce ever! Put it on pizzas or spegetti",
+	"image":"red_sauce.jpg",
+	"thumbnail":"red_sauce.jpg",
+	"link":"red_sauce",
+	"contentLink":"red_sauce.markdown"
+}

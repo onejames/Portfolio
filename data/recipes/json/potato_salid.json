@@ -1,1 +1,8 @@
-{"title":"Potato_salid","description":"This is a description","image":"potato_salid.jpeg","thumbnail":"potato_salid.jpeg","link":"potato_salid","contentLink":"potato_salid.markdown"}
+{
+	"title":"Potato Salid",
+	"description":"Basic venigar potato salid",
+	"image":"potato_salid.jpeg",
+	"thumbnail":"potato_salid.jpeg",
+	"link":"potato_salid",
+	"contentLink":"potato_salid.markdown"
+}

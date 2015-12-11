@@ -42,4 +42,18 @@ class Request implements IsService
 		return $this->method;
 	}
 
+	public function getRequestParam($key)
+	{
+		if(!isset($_REQUEST[$key])) {
+			return null;
+		}
+
+		return $_REQUEST[$key];
+	}
+
+	public function getRequest()
+	{
+		return $_REQUEST;
+	}
+
 }

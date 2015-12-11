@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"mark",
 				"markdownPath"
 			],
@@ -103,6 +107,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "html/index.php",
+			"settings":
+			{
+				"buffer_size": 995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/_templates/homepageSections.tpl",
+			"settings":
+			{
+				"buffer_size": 486,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sections.css",
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -154,33 +182,73 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes"
+	],
 	"file_history":
 	[
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/homepageSections.tpl",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/sections.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/red_sauce.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/coffee_cake.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/apple_fritters.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/apple_pie.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/banana_bread_ab.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/basic_dredge.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/biskets_and_gravy.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/brown_sauce.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/butternut_squash.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/chicken_and_noodles.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/cabbage_leek_potato__soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/cold_coffee.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/doughnut_muffins.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/egg_drop_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/green_bean_casserole.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/guacamole.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/labneh_cheese.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/laster_stuffing.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/miso_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/mozzarella.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/mushroom_onion_white_sauce.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/no_pan_pear_pie.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/pancakes.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/pear_filling.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/potato_salid.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/quiche.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/ricotta.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/risotto.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/sausage,_potato,_and_kale_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/steak.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/the_chewey.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/tofood_sandwiches.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/tomato_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/udon.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/veritable_and_dumpling_soup.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/yellow_cake.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/yogurt.json",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/main.css",
+		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Constants.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/balancing_bot.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/markdown/balancing_bot.markdown",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/led_tree.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/led_matrix.json",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/no_pan_pear_pie.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/ProjectsController.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Tools/FileParser.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/Projects.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Handlers/ProjectHandler.php",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/egg_drop_soup.json",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/the_chewey.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/tree_climbing.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/projects.css",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/recipes.css",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/rc_cars.json",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/apple_pie.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/beer.json",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/pancakes.json",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/banana_bread_ab.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/backpacking.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/Recipes.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/projects/json/aquariums.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/projects.js",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/RecipesController.php",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/sections.css",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/projects.tpl",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/AbstractController.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/projects/project.php",
@@ -192,10 +260,8 @@
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/markdown/laster_stuffing.markdown",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/homepage.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/Projects list.text",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/data/recipes/json/laster_stuffing.json",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/recipes/recipes.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Bootstrap.php",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/main.css",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/index.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/index.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Handlers/RecipeHandler.php",
@@ -210,12 +276,10 @@
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/vendor/erusev/parsedown/Parsedown.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/vendor/autoload.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Ajax/AbstractAjax.php",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Constants.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Core/Template/Template.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/bootstrapJs.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/recipes.js",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/js/main.js",
-		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/html/_templates/homepageSections.tpl",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Controllers/AjaxController.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/App/Router/Route.php",
 		"/Users/jameslaster/Dev/htdocs/Portfolio-Simple/css/homepage.css",
@@ -253,37 +317,7 @@
 		"/Users/jameslaster/Desktop/chromeExtension/popup.html",
 		"/Users/jameslaster/Desktop/chromeExtension/manifest.json",
 		"/Users/jameslaster/Dev/htdocs/pivot-api/data/Logs/.gitignore",
-		"/Users/jameslaster/Dev/htdocs/pivot-api/p1.5-client-db/liquibase.properties",
-		"/Users/jameslaster/Dev/htdocs/pivot-api/p2-client-db/liquibase.properties",
-		"/Users/jameslaster/Dev/htdocs/pivot-api/p2-apigility-db/liquibase.properties",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/setup_pivot2_api.sh",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/setup.sh",
-		"/Users/jameslaster/Dev/htdocs/phpmyadmin/config.inc.php",
-		"/Users/jameslaster/Dev/puphpet/puppet/site.pp",
-		"/Users/jameslaster/Dev/htdocs/pivot-2/config.json",
-		"/Users/jameslaster/Dev/htdocs/pivot-2/config.json.tmp",
-		"/Users/jameslaster/Dev/.gitignore",
-		"/Users/jameslaster/Dev/puphpet/.gitattributes",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/initFE.sh",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/installRubyGems.sh",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/installJRE.sh",
-		"/Users/jameslaster/Dev/puphpet/files/exec-once/initAPI.sh",
-		"/Users/james/dev/Vagrantfile",
-		"/Users/james/dev/html/pivot-2/app/config/parameters.yml",
-		"/Users/james/dev/setupPivot2.sh",
-		"/Users/james/dev/puphpet/config.yaml",
-		"/Users/james/dev/puphpet/puppet/modules/apache/templates/vhost/_fastcgi.erb",
-		"/Users/james/dev/htdocs/pivot-2/refreshPivot2.sh",
-		"/Users/james/dev/htdocs/pivot-2/setupPivot2.sh",
-		"/Users/james/dev/htdocs/pivot-2/composer.lock",
-		"/Users/james/dev/.gitignore",
-		"/private/etc/hosts",
-		"/Users/james/dev/htdocs/pivot-apigility/config/autoload/database.local.php",
-		"/Users/james/dev/puphpet/puppet/modules/mysql/manifests/server/root_password.pp",
-		"/Users/james/dev/puphpet/puppet/modules/rvm/spec/fixtures/modules/apache/README.md",
-		"/Users/james/dev/puphpet/puppet/modules/apache/README.md",
-		"/Users/james/dev/htdocs/pivot-apigility/tests/bootstrap.php",
-		"/Users/james/dev/puphpet/puppet/modules/apache/spec/acceptance/vhost_spec.rb"
+		"/Users/jameslaster/Dev/htdocs/pivot-api/p1.5-client-db/liquibase.properties"
 	],
 	"find":
 	{
@@ -306,6 +340,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",",
+			"cheese",
+			",",
+			"location",
 			",",
 			"recipe",
 			",",
@@ -408,8 +446,95 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "html/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								891,
+								738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/_templates/homepageSections.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sections.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -461,6 +586,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sections",
+				"html/_templates/homepageSections.tpl"
+			],
+			[
+				"red",
+				"data/recipes/json/red_sauce.json"
+			],
+			[
+				"coffe",
+				"data/recipes/json/coffee_cake.json"
+			],
+			[
+				"section",
+				"css/sections.css"
+			],
+			[
+				"const",
+				"App/Constants.php"
+			],
+			[
+				"main.css",
+				"css/main.css"
+			],
 			[
 				"egg",
 				"data/recipes/json/egg_drop_soup.json"

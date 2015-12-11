@@ -12,11 +12,12 @@ class BioController extends AbstractController
 		$this->setHandler('App\Handlers\BioHandler');
 	}
 
-	public function process()
+	public function processIndex()
 	{
 
 		$this->setJavascript(
 			array(
+				'bio'
 			)
 		);
 
@@ -26,37 +27,16 @@ class BioController extends AbstractController
 			)
 		);
 
-		if( $this->route->getPage() == null ) {
-
-			$this->setTemplate('bio/bio');
-			
-			$this->addJavascript('bio');
-
-			$bio = $this->get('app.bio.handler')->getBio();
+		$this->setTemplate('bio/bio');
 		
-			$this->setPageValues(
-				array(
-					'title'   => 'Bio',
-					'content' => $bio,
-				)
-			);
-
-		} else {
-		
-			// $this->setTemplate('projects/projectTemplate');
-			// $this->addCss('projects');
-
-			// $project = $this->getHandler()->getProjectByName($this->route->getPage());
-
-			// $this->setPageValues(
-			// 	'content' => $project->getContent(),
-			// );
-
-		
-		}
-		
-
-
+		$bio = $this->get('app.bio.handler')->getBio();
+	
+		$this->setPageValues(
+			array(
+				'title'   => 'Bio',
+				'content' => $bio,
+			)
+		);
 
 		$this->render();
 	}

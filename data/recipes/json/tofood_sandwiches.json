@@ -1,1 +1,8 @@
-{"title":"Tofood_sandwiches","description":"This is a description","image":"tofood_sandwiches.jpeg","thumbnail":"tofood_sandwiches.jpeg","link":"tofood_sandwiches","contentLink":"tofood_sandwiches.markdown"}
+{
+	"title":"Tofood Sandwiches",
+	"description":"Breaded tofu sandwitches are a family staple. Never any leftovers!",
+	"image":"tofood_sandwiches.jpeg",
+	"thumbnail":"tofood_sandwiches.jpeg",
+	"link":"tofood_sandwiches",
+	"contentLink":"tofood_sandwiches.markdown"
+}

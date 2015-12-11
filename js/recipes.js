@@ -47,7 +47,7 @@ function applyBehavior()
 	});
 
 	$('#recipes li').on("mouseleave", function(){
-		$(this).css('width', '380px');
+		// $(this).css('width', '380px');
 	});
 
 	// var that = this;
