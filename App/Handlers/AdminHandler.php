@@ -11,7 +11,7 @@ use Parsedown;
 class AdminHandler extends AbstractHandler
 {
 
-	public function getArticleList()
+	public function getRecipeList()
 	{
 		$fileParser = new FileParser('recipes\\markdown\\');
 
@@ -20,7 +20,30 @@ class AdminHandler extends AbstractHandler
 		$content = '';
 
 		foreach ($recipeFiles as $fileName) {
-			$content .= '<a href="' . DOMAIN . 'admin/recipes/markdown/' . $fileName . '" >' . $fileName . '</a> <br />';
+			$content .= '<div class="surge-column-1 surge-column-tablet-1/2 surge-column-desktop-1/3"> 
+							<a href="' . DOMAIN . 'admin/recipes/markdown/' . $fileName . '" >
+								' . $fileName . '
+							</a> 
+						</div>';
+		}
+
+		return $content;
+	}
+
+	public function getProjectList()
+	{
+		$fileParser = new FileParser('projects\\markdown\\');
+
+		$recipeFiles = $fileParser->getFileNames();
+
+		$content = '';
+
+		foreach ($recipeFiles as $fileName) {
+			$content .= '<div class="surge-column-1 surge-column-tablet-1/2 surge-column-desktop-1/3"> 
+							<a href="' . DOMAIN . 'admin/projects/markdown/' . $fileName . '" >
+								' . $fileName . '
+							</a> 
+						</div>';
 		}
 
 		return $content;

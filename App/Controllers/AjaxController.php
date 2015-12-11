@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Controllers\AbstractController;
 
+use App\Core\Interfaces\ToJson;
+
 class AjaxController extends AbstractController
 {
 
@@ -20,7 +22,11 @@ class AjaxController extends AbstractController
 		
 		$ajaxObject = new $class();
 
-		echo $ajaxObject->toJson();
+		if($ajaxObject instanceof ToJson) {
+			echo $ajaxObject->toJson();
+		} else {
+			$ajaxObject->processAjax($this->route);
+		}
 
 		die();
 	}

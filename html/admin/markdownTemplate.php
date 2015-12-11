@@ -1,12 +1,13 @@
 <div>
 	<h2>[@articleTitle]</h2>
-	<textarea class="markdownEditor">
+	<input type="hidden" id="markdownPath" value="[@markdownPath]" />
+	<textarea id="markdownEditor" class="markdownEditor">
 [@rawMarkdown]
 	</textarea>
 	
 	<p>
-		<button>Preview</button> &nbsp;
-		<button>save</button>
+		<button onclick="updatePreview();" >Preview</button> &nbsp;
+		<button onclick="saveMarkdown();" >save</button>
 	</p>
 
 	<fieldset>

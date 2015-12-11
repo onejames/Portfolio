@@ -32,7 +32,8 @@ class AdminController extends AbstractController
 		$this->setPageValues(
 			array(
 				'title'   => 'Admin',
-				'content' => $this->getHandler()->getArticleList(),
+				'recipeList' => $this->getHandler()->getRecipeList(),
+				'projectList' => $this->getHandler()->getProjectList(),
 			)
 		);
 
@@ -46,12 +47,13 @@ class AdminController extends AbstractController
 
 		$this->setJavascript(
 			array(
+				'admin',
 			)
 		);
 
 		$this->setCss(
 			array(
-				'admin'
+				'admin',
 			)
 		);
 
@@ -64,6 +66,7 @@ class AdminController extends AbstractController
 				'rawMarkdown'     => $makrdown,
 				'markdownPreview' => $parsedown->text($makrdown),
 				'articleTitle'    => $article,
+				'markdownPath'	  => $article,
 			)
 		);
 

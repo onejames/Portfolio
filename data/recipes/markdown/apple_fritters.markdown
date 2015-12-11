@@ -30,3 +30,6 @@ about 2 to 2 1/2 minutes total.
 
 Remove and drain on a paper towel. Dust very generously with powdered sugar, or dip fritters in a light doughnut glaze (mix all glaze ingredients together, then dunk warm fritters).
 Serve warm!
+
+	
+	

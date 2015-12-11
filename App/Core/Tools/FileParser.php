@@ -136,4 +136,13 @@ class FileParser implements IsService
 		return file_get_contents($this->dataPath . $path);
 	}
 
+	public function writeData($path, $data)
+	{
+		if(!$this->fileExists()) {
+			throw new Exception("File does not exist at path " . $path . '. Can not write data.');
+		}
+
+		return file_put_contents($this->dataPath . $path, $data);
+	}
+
 }

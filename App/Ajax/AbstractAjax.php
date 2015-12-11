@@ -9,6 +9,4 @@ abstract class AbstractAjax
 
 	use GetServiceTrait;
 
-	abstract public function toJson();
-
 }
